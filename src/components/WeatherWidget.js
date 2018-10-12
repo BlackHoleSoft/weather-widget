@@ -35,7 +35,7 @@ var cities = [
 function getWeather(city, callback){
     const URL = "http://api.openweathermap.org/data/2.5/weather?q=" +
         city +
-            "&appid=2d728f6f85e689c60f71ca7d1c8c1215&units=metric&lang=ru";
+            "&appid=52e70f36a9e8afdfe088f574bdadea46&units=metric&lang=ru";
     fetch(URL).then(res => res.json()).then(callback);
 }
 
@@ -73,12 +73,12 @@ class WeatherDisplay extends Component {
         });
     }
 
-    componentDidUpdate() {
+    /*componentDidUpdate() {
         const city = this.props.city;
         getWeather(city, json => {
             this.setState({ weatherData: json });
         });
-    }
+    }*/
 
     render() {
         const weatherData = this.state.weatherData;
