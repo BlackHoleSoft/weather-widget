@@ -5,8 +5,7 @@ import WeatherWidget from './components/WeatherWidget';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <p>Hello!!!</p>
+      <div className="App">        
         <WeatherWidget></WeatherWidget>
       </div>
     );

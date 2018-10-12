@@ -12,3 +12,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.temp {
+    font-size: 42px;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    //color: white;
+    //background-color: #00000000;
+}
+
+button:hover {
+    background-color: #00000000;
+}
+
+.btn-container {
+    background-color: #45A438;
+    border: none;
+    border-radius: 12px;
+    display: block;
+    width: auto;
+    margin: 0px;
+    padding: auto;
+}
